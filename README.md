@@ -2,7 +2,7 @@
 
 A terminal-based analogue wristwatch built with Rust and [Ratatui](https://github.com/ratatui/ratatui). A love letter to iconic dive watches, rendered in Braille characters for high-resolution terminal graphics.
 
-![rustlex](assets/2026-02-16_12-15.png)
+<img src="assets/2026-02-16_12-15.png" width="50%">
 
 ## Features
 
