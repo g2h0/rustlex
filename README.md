@@ -4,10 +4,8 @@
 
 A terminal-based analogue wristwatch built with Rust and [Ratatui](https://github.com/ratatui/ratatui). Rendered in Braille characters for high-resolution terminal graphics.
 
-<img src="assets/2026-02-16_12-15.png" width="75%">
+<img src="assets/demo.gif" width="100%">
 <img src="assets/2026-02-16_13-58.png" width="75%">
-
-<video src="assets/demo.mp4" width="75%" autoplay loop muted playsinline></video>
 
 ## Features
 
@@ -54,7 +52,7 @@ The watch face will fill your terminal window. Resize the terminal and the watch
 | Key | Action |
 |---|---|
 | `q` / `Esc` / `Ctrl+C` | Quit |
-| `Scroll wheel` | Rotate bezel (120 clicks per full rotation) |
+| `Scroll wheel` / `[` / `]` | Rotate bezel (120 clicks per full rotation) |
 | `s` | Toggle twinkling star background |
 | `l` | Toggle lume mode |
 | `m` | Toggle movement (quartz / smooth sweep) |

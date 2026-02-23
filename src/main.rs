@@ -62,6 +62,8 @@ fn run(terminal: &mut Terminal<CrosstermBackend<io::Stdout>>) -> io::Result<()> 
                         KeyCode::Char('s') => app.toggle_stars(),
                         KeyCode::Char('l') => app.toggle_lume(),
                         KeyCode::Char('m') => app.toggle_smooth(),
+                        KeyCode::Char('[') => app.rotate_bezel(-3), // counter-clockwise
+                        KeyCode::Char(']') => app.rotate_bezel(3),  // clockwise
                         _ => {}
                     }
                 }
